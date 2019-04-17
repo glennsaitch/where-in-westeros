@@ -27,7 +27,7 @@ namespace Microsoft.Bot.Sample.QnABot
 
             var qnaAuthKey = GetSetting("bd23967a-83e5-4878-b976-a82b2cd2920c"); 
             var qnaKBId = Utils.GetAppSetting("990f592b-afb9-440f-bd1e-7ee6617bcad0/generateAnswer");
-            var endpointHostName = Utils.GetAppSetting("https://where-in-westeros.azurewebsites.net");
+            var endpointHostName = Utils.GetAppSetting("https://where-in-westeros.azurewebsites.net/qnamaker");
 
             // QnA Subscription Key and KnowledgeBase Id null verification
             if (!string.IsNullOrEmpty(qnaAuthKey) && !string.IsNullOrEmpty(qnaKBId))
